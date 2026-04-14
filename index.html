@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
-     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
   </head>
   <body>
+    <model-viewer 
+      src="https://modelviewer.dev/shared-assets/models/Astronaut.glb"
+      ios-src="https://modelviewer.dev/shared-assets/models/Astronaut.usdz"
 
-<model-viewer 
-  src="https://modelviewer.dev/shared-assets/models/Astronaut.glb"
-  ios-src="https://modelviewer.dev/shared-assets/models/Astronaut.usdz"
+      ar
+      ar-modes="quick-look"
 
-  ar
-  ar-modes="quick-look"
-
-  camera-controls
-  auto-rotate
-  style="width:100%; height:100vh;">
-</model-viewer>
+      camera-controls
+      auto-rotate
+      style="width:100%; height:100vh;">
+    </model-viewer>
   </body>
 </html>
